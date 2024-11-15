@@ -1,0 +1,33 @@
+table, td,th {
+    border: 1px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    max-width: 500px;
+}
+
+thead tr{
+    background-color: red;
+}
+
+th{
+    color:blue;
+}
+
+tbody tr:nth-child(even){
+    background-color: green;
+}
+
+.reszponzivtablazat{
+    overflow-x: scroll;
+}
+
+.osszevont1{
+    background-color: blue;
+}
+.osszevont2{
+    background-color: white;
+}

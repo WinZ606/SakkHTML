@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 800px;
+}
+
+li{
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0px;
+}
+
+a:hover{
+    color: red;
+}
+
+tbody{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightgrey;
+    border-bottom: 1px solid grey;
+}
